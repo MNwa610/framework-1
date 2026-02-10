@@ -1,0 +1,81 @@
+ :root {
+   --ff-primary: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+     sans-serif;
+   --color-accent: #2ecc71;
+ }
+
+ body {
+   font-family: var(--ff-primary);
+   scroll-behavior: smooth;
+ }
+
+ .navbar-brand span {
+   font-weight: 700;
+ }
+
+ .hero-section {
+   padding-top: 6rem; 
+   padding-bottom: 4rem;
+   background: linear-gradient(135deg, #f8fff9, #e8f8f1);
+ }
+
+ .hero-illustration {
+   max-width: 420px;
+ }
+
+ .section-title {
+   font-weight: 700;
+   margin-bottom: 2rem;
+   text-align: center;
+ }
+
+ .adv-card,
+ .program-card,
+ .review-card,
+ .team-card {
+   border-radius: 1rem;
+   border: 1px solid #e5e7eb;
+   padding: 1.5rem;
+   height: 100%;
+   background-color: #ffffff;
+ }
+
+
+.program-card img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  display: block;
+}
+
+ .adv-icon {
+   font-size: 2rem;
+   color: var(--color-accent);
+   margin-bottom: 0.75rem;
+ }
+
+ .program-price {
+   font-weight: 700;
+   color: var(--color-accent);
+ }
+
+ .section-padding {
+   padding-top: 4rem;
+   padding-bottom: 4rem;
+ }
+
+ footer {
+   background-color: #0f172a;
+   color: #e5e7eb;
+   padding-top: 3rem;
+   padding-bottom: 2rem;
+ }
+
+ footer a {
+   color: #e5e7eb;
+   text-decoration: none;
+ }
+
+ footer a:hover {
+   color: var(--color-accent);
+ }
