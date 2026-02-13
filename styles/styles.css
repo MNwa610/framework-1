@@ -76,6 +76,36 @@
    text-decoration: none;
  }
 
- footer a:hover {
-   color: var(--color-accent);
- }
+footer a:hover {
+  color: var(--color-accent);
+}
+
+/* Стили для иконок соцсетей */
+footer .fa-brands,
+footer .fa-instagram,
+footer .fa-vk,
+footer .fa-telegram {
+  color: #e5e7eb;
+  transition: color 0.3s ease;
+}
+
+footer a:hover .fa-brands,
+footer a:hover .fa-instagram,
+footer a:hover .fa-vk,
+footer a:hover .fa-telegram {
+  color: var(--color-accent);
+}
+
+/* Иконки соцсетей в основной части страницы */
+.fa-brands.fa-instagram,
+.fa-brands.fa-vk,
+.fa-brands.fa-telegram {
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+a:hover .fa-brands.fa-instagram,
+a:hover .fa-brands.fa-vk,
+a:hover .fa-brands.fa-telegram {
+  color: var(--color-accent);
+}

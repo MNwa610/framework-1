@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAQ | FitFood</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+    defer
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"
+  />
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html#hero">
+          <span class="me-2">
+            <i class="fa-solid fa-leaf text-success"></i>
+          </span>
+          <span>FitFood</span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Переключить навигацию"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacts.html">Контакты / Отзывы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="faq.html">FAQ</a>
+            </li>
+          </ul>
+          <a href="index.html#programs" class="btn btn-success ms-lg-3">
+            Заказать
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="section-padding" style="padding-top: 6rem;">
+    <section class="container py-4">
+      <h1 class="text-center mb-4">Часто задаваемые вопросы</h1>
+      <p class="text-center text-muted mb-5">
+        Собрали ответы на самые популярные вопросы о сервисе FitFood. Если вы не нашли нужный ответ —
+        напишите нам через форму на странице контактов.
+      </p>
+
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq-heading-1">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq1"
+              aria-expanded="true"
+              aria-controls="faq1"
+            >
+              Как начать пользоваться сервисом FitFood?
+            </button>
+          </h2>
+          <div
+            id="faq1"
+            class="accordion-collapse collapse show"
+            aria-labelledby="faq-heading-1"
+            data-bs-parent="#faqAccordion"
+          >
+            <div class="accordion-body">
+              Выберите подходящую программу питания на главной странице, укажите количество дней и удобное
+              окно доставки. После оформления заказа мы подтвердим его по телефону или email.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq-heading-2">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq2"
+              aria-expanded="false"
+              aria-controls="faq2"
+            >
+              Можно ли менять программу в процессе?
+            </button>
+          </h2>
+          <div
+            id="faq2"
+            class="accordion-collapse collapse"
+            aria-labelledby="faq-heading-2"
+            data-bs-parent="#faqAccordion"
+          >
+            <div class="accordion-body">
+              Да, вы можете менять программу 1 раз в неделю, предупредив нас минимум за 2 дня до изменения.
+              Просто напишите в поддержку или позвоните нам.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq-heading-3">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq3"
+              aria-expanded="false"
+              aria-controls="faq3"
+            >
+              Есть ли у вас вегетарианские или безглютеновые рационы?
+            </button>
+          </h2>
+          <div
+            id="faq3"
+            class="accordion-collapse collapse"
+            aria-labelledby="faq-heading-3"
+            data-bs-parent="#faqAccordion"
+          >
+            <div class="accordion-body">
+              Да, у нас есть специализированные программы без мяса и без глютена. При оформлении заказа
+              укажите свои пожелания, и мы подберём меню с учётом ограничений.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq-heading-4">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq4"
+              aria-expanded="false"
+              aria-controls="faq4"
+            >
+              В какое время осуществляется доставка?
+            </button>
+          </h2>
+          <div
+            id="faq4"
+            class="accordion-collapse collapse"
+            aria-labelledby="faq-heading-4"
+            data-bs-parent="#faqAccordion"
+          >
+            <div class="accordion-body">
+              Мы доставляем заказы в утренние и вечерние слоты. Точное время зависит от вашего адреса и
+              будет указано при оформлении. Курьер дополнительно предупредит вас по телефону.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq-heading-5">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq5"
+              aria-expanded="false"
+              aria-controls="faq5"
+            >
+              Как хранить и разогревать блюда?
+            </button>
+          </h2>
+          <div
+            id="faq5"
+            class="accordion-collapse collapse"
+            aria-labelledby="faq-heading-5"
+            data-bs-parent="#faqAccordion"
+          >
+            <div class="accordion-body">
+              Все блюда поставляются в герметичных контейнерах. Храните их в холодильнике и разогревайте в
+              микроволновой печи или духовке согласно инструкции на упаковке.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacts">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-4">
+          <h3 class="h6 mb-3">FitFood</h3>
+          <p class="mb-1">Сервис доставки здорового питания.</p>
+          <p class="mb-0 small">
+            Ежедневные рационы, которые экономят ваше время и заботятся о
+            здоровье.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h6 mb-3">Контакты</h3>
+          <p class="mb-1">
+            <span class="me-2">
+              <i class="fa-solid fa-location-dot"></i>
+            </span>
+            Москва
+          </p>
+          <p class="mb-1">
+            <span class="me-2">
+              <i class="fa-solid fa-phone"></i>
+            </span>
+            <a href="tel:+71231231234">+7 (123) 123‑12‑34</a>
+          </p>
+          <p class="mb-0">
+            <span class="me-2">
+              <i class="fa-solid fa-envelope"></i>
+            </span>
+            <a href="mailto:hello@fitfood.ru">hello@fitfood.ru</a>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h6 mb-3">Мы в соцсетях</h3>
+          <div class="d-flex gap-3">
+            <a href="#" aria-label="Instagram">
+              <i class="fa-brands fa-instagram fa-lg"></i>
+            </a>
+            <a href="#" aria-label="VK">
+              <i class="fa-brands fa-vk fa-lg"></i>
+            </a>
+            <a href="#" aria-label="Telegram">
+              <i class="fa-brands fa-telegram fa-lg"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr class="border-secondary-subtle my-4" />
+      <p class="text-center small mb-0">
+        © 2026 FitFood. Все права защищены.
+      </p>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js" defer></script>
+</body>
+</html>
+
